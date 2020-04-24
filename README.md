@@ -18,17 +18,27 @@ To run this API you need a installation of MongoDB Database with this configurat
 
 # Install dependencies
 
-This project uses Revel framework and DEP, to install dependencies you can execute this command
+This project uses DEP, to install dependencies you can execute this command
 
 <code>DEP ensure</code>
 
 # Run
 
-Once Revel framework is installed, you can run the server by:
+# Install Framework
 
-<code>revel run</code>
+This project uses Revel framework. install it by:
 
-Note that the project must be located under <code>$GOPATH/src/tfmMeteoSalle</code>
+go get github.com/revel/revel
+
+go get github.com/revel/cmd/revel
+
+# To Run
+
+Once framework is installed, you can run server by:
+
+revel run go-revel-rest
+
+Note that the project must be located under $GOPATH/src/go-revel-rest
 
 # Routes
 
