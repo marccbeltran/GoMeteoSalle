@@ -22,7 +22,6 @@ This project uses DEP, to install dependencies you can execute this command
 
 <code>DEP ensure</code>
 
-# Run
 
 # Install Framework
 
